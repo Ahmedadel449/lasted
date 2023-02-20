@@ -5,7 +5,7 @@ const path = require('path');
 const app =express(); 
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb://127.0.0.1:27017/news",
+mongoose.connect("mongodb+srv://Ahmed:01214548429@test.0zokfyo.mongodb.net/lap?retryWrites=true&w=majority",
 
 {useNewUrlParser:true , useUnifiedTopology: true}, (err) => {
     if (err){
